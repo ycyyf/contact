@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1">
+	<title>编辑联系人</title>
+	<link rel="stylesheet" type="text/css" href="../css/editcontacts.css">
+	<script type="text/javascript" src="../js/jquery-1.7.2.min.js"></script>
+	<script type="text/javascript" src="../js/httprequest.js"></script>
+	<script type="text/javascript" src="../js/editcontacts.js"></script>
+</head>
+<body>
+<!-- 头部 -->
+<header>
+	<span>取消</span>
+	<span>编辑联系人</span>
+	<span>保存</span>
+</header>
+<form>
+	<div>
+		<img src="../img/Koala.jpg" alt="头像">
+	</div>
+	<div>
+		<input type="text" name="nameIndex" placeholder="拼音首字母" id="nameIndex"><br>
+		<input type="text" name="name" placeholder="姓名" id="name">
+	</div>
+	<p>
+		<label>手机 :</label>
+		<input type="telephone" name="telephone" placeholder="号码" id="phone">
+	</p>
+	<p>
+		<label>单位 :</label>
+		<input type="text" name="" placeholder="号码">
+	</p>
+</form>
+<ul>
+	<li>来电铃声 <span>默认铃声></span></li>
+	<li>群组 <span>未加入群组></span></li>
+	<li>添加更多字段</li>
+	<span>来自以下账号</span> 
+	<li>手机</li>
+	<li id="delete-contacts">删除联系人</li>
+</ul>
+
+</body>
+</html>

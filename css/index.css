@@ -1,0 +1,79 @@
+*{
+	margin:0;
+	padding:0;
+}
+/*头部*/
+header{
+	position: fixed;
+	width:100%;
+	height:50px;
+	line-height: 50px;
+	background: #eee;
+	text-align: center;
+	top:0;
+	left:0;
+	z-index: 999;
+}
+header span:nth-child(1)
+{
+	font-family: "微软雅黑";
+	font-size:18px;
+}
+header span:nth-child(2)
+{
+	position: absolute;
+	font-size: 30px;
+	color:green;
+	right:15px;
+}
+/*搜索框*/
+#search{
+	position: fixed;
+	background: #fff;
+	z-index: 9999;
+	height:70px;
+	line-height: 70px;
+	top:50px;
+	width:100%;
+	text-align: center;
+}
+#search input{
+	width:96%;
+	height:40px;
+	border:1px solid #ccc;
+	border-radius: 5px;
+	padding-left:10px;
+	font-size: 16px;
+	outline: none;
+}
+/*显示联系人区域*/
+#show-list{
+	width:100%;
+	margin-top:120px;
+}
+ .indexTitle{
+	width:94%;
+	height:30px;
+	line-height: 30px;
+	padding-left:22px;
+	background: #eee;
+	color:#888;
+}
+ li:not(.indexTitle)
+{
+	width:90%;
+	height:30px;
+	line-height:30px;
+	margin:0 auto;
+	list-style: none;
+}
+ li:not(.indexTitle) a{
+	color:#000;
+	text-decoration: none;
+}
+/*显示搜索结果*/
+#show-search-result{
+	margin-top:120px;
+}
+
+

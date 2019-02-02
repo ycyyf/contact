@@ -1,0 +1,124 @@
+*{
+	margin:0;
+	padding:0;
+}
+body{
+	width:100%;
+	height:100%;
+}
+/*头部*/
+header{
+	position: fixed;
+	width:100%;
+	height:50px;
+	line-height: 50px;
+	background: #eee;
+	text-align: center;
+	top:0;
+	left:0;
+	z-index: 999;
+}
+header span:nth-child(1)
+{
+	position: absolute;
+	left:10px;
+	font-size: 18px;
+	color:#6f9;
+}
+header span:nth-child(2)
+{
+	font-family: "微软雅黑";
+	font-size:18px;
+}
+header span:nth-child(3)
+{
+	position: absolute;
+	font-size: 18px;
+	color:#6f9;
+	right:15px;
+}
+
+/*表单*/
+form{
+	width:100%;
+	margin-top:50px;
+}
+form div:nth-child(1){
+	width:24%;
+	height: 100px;
+	text-align: center;
+	float: left;
+}
+form div:nth-child(1) img{
+	width:80px;
+	height:80px;
+	margin-top: 10px;
+	border-radius: 50%;
+}
+form div:nth-child(2){
+	float: left;
+	width:76%;
+	height: 100px;
+}
+form div:nth-child(2) input{
+	width:90%;
+	height: 30px;
+	border:none;
+	outline: none;
+	border-bottom: 1px solid #ccc;
+	margin-top: 10px;
+	margin-left: 10px;
+	padding-left: 10px
+}
+form p{
+	clear:both;
+	width:96%;
+	height:50px;
+	line-height: 50px;
+	margin:20px auto;
+
+	border-top:1px solid #ccc;
+	border-bottom:1px solid #ccc;
+}
+form p label{
+	margin-left:10px;
+	color:#6f9;
+}
+form p input{
+	width:80%;
+	height:30px;
+	border:none;
+	outline: none;
+	font-size:16px;
+}
+ul li{
+	width:96%;
+	height:40px;
+	line-height: 40px;
+	list-style: none;
+	border-top:1px solid #ccc;
+	border-bottom:1px solid #ccc;
+	margin:30px auto;
+}
+ul>span{
+	font-size: 14px;
+	color:#cdf;
+	height:30px;
+	margin-left: 5px;
+}
+ul li span{
+	float: right;
+	margin-right: 10px;
+	color:#ccc;
+}
+ul li:nth-child(3)
+{
+	color:#6f9;
+}
+ul li:nth-child(5)
+{
+	margin:0 auto;
+}
+ul li:last-child{
+	color:#f00;
+}

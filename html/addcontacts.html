@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>添加联系人</title>	
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1">
+	<link rel="stylesheet" type="text/css" href="../css/addcontacts.css">
+	<script type="text/javascript" src="../js/jquery-1.7.2.min.js"></script>
+	<script type="text/javascript" src="../js/httprequest.js"></script>
+	<script type="text/javascript" src="../js/addcontacts.js"></script>
+</head>
+<body>
+<!-- 头部 -->
+<header>
+	<span>取消</span>
+	<span>新建联系人</span>
+	<span>保存</span>
+</header>
+<form>
+	<div>
+		<img src="../img/Koala.jpg" alt="头像">
+	</div>
+	<div>
+		<input type="text" name="nameIndex" placeholder="拼音首字母，一位大写字母" id="nameIndex"><br>
+		<input type="text" name="name" placeholder="姓名" required id="name">
+	</div>
+	<p>
+		<label>手机 :</label>
+		<input type="telephone" name="telephone" placeholder="号码" required id="phoneNum">
+	</p>
+	<p>
+		<label>个人 :</label>
+		<input type="email" name="email" placeholder="邮件">
+	</p>
+</form>
+<ul>
+	<li>来电铃声 <span>默认铃声></span></li>
+	<li>群组 <span>未加入群组></span></li>
+	<li>添加更多字段</li>
+	<li>保存位置<span>手机</span></li>
+</ul>
+</body>
+</html>

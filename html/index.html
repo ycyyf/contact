@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1">
+	<link rel="stylesheet" type="text/css" href="../css/index.css">
+	<script type="text/javascript" src="../js/jquery-1.7.2.min.js"></script>
+	<script type="text/javascript" src="../js/httprequest.js"></script>
+	<script type="text/javascript" src="../js/index.js"></script>
+	<title>通讯录</title>
+</head>
+<body>
+<!-- 头部 -->
+<header>
+	<span>联系人</span>
+	<span>+</span>
+</header>
+<!-- 搜索框区域 -->
+<div id="search">
+	<input type="text" name="search" placeholder="" onkeyup="showResult(this.value)">
+</div>
+<!-- 联系人显示区域 -->
+<ul id="show-list">
+</ul>
+<ul id="show-search-result"></ul>
+</body>
+</html>

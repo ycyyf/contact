@@ -1,0 +1,92 @@
+*{
+	margin:0;
+	padding:0;
+}
+body{
+	width:100%;
+	height:100%;
+}
+/*头部*/
+header{
+	position: fixed;
+	top:0;
+	left:0;
+	z-index:999;
+	width:100%;
+	height:50px;
+	line-height: 50px;
+	background: #eee;
+	text-align: center;
+	
+}
+header span:nth-child(1)
+{
+	position: absolute;
+	left:10px;
+	font-size: 18px;
+	color:#6f9;
+}
+header span:nth-child(2)
+{
+	font-family: "微软雅黑";
+	font-size:18px;
+}
+header span:nth-child(3)
+{
+	position: absolute;
+	font-size: 18px;
+	color:#6f9;
+	right:15px;
+}
+/*联系人头像*/
+.touxiang{
+	width:100%;
+	height:140px;
+	text-align: center;
+	margin-top:60px;
+}
+.touxiang img{
+	width:80px;
+	height:80px;
+	border-radius: 50%;
+}
+.touxiang p{
+	font-size:18px;
+}
+hr{
+	width:90%;
+	margin:0 auto;
+}
+ul li{
+	width:90%;
+	height:40px;
+	line-height: 40px;
+	margin:0 auto;
+	list-style: none;
+	border-bottom: 1px solid #ccc;
+	color:#6f9;
+}
+ul li:nth-child(1)
+{
+	height:50px;
+	line-height:50px;
+	margin-bottom: 30px;
+}
+#call{
+	display: none;
+	width:90%;
+	height:200px;
+	box-sizing: border-box;
+	background: #ccc;
+	position: absolute;
+	z-index: 2;
+	left:50%;
+	top:50%;
+	margin-left: -45%;
+	margin-top:-100px;
+	text-align: center;
+	padding-top: 90px;
+	box-shadow: 5px,5px,5px #cc0;
+	border-radius: 5px;
+	opacity: 0.9;
+}

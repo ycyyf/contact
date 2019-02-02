@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>短信接口测试</title>
+	<script type="text/javascript" src="./js/httprequest.js"></script>
+</head>
+<body>
+<script type="text/javascript">
+var msg="mobile=13556811111&content=你好用户&appkey=your_app_key"
+var xmlhttp=httpRequest("http://api.jisuapi.com/sms/send","post",msg);
+xmlhttp.onreadystatechange=function(){
+	if(xmlhttp.readyState==4&&xmlhttp.status==200)
+	{
+		var result=xmlhttp.responseText;
+		console.log(result);
+	}
+}
+</script>
+</body>
+</html>
